@@ -31,4 +31,13 @@ public class StudentController {
     public String getName() {
         return "Jessie Jiang";
     }
+
+    /**
+     * Returns the Integer 420 after navigating to getNumber endpoint.
+     * @return 420
+     */
+    @GetMapping("/getNumber")
+    public Integer getNumber() {
+        return 420;
+    }
 }
