@@ -49,4 +49,13 @@ public class StudentController {
     public String getColor() {
         return "red";
     }
+
+    /**
+     * Returns my favorite flower as a String.
+     * @return the String "lily"
+     */
+    @GetMapping("/getFlower")
+    public String getFlower() {
+        return "lily";
+    }
 }
