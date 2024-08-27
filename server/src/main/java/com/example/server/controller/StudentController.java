@@ -40,4 +40,13 @@ public class StudentController {
     public Integer getNumber() {
         return 420;
     }
+
+    /**
+     * Return a String for my favorite color.
+     * @return the color "red"
+     */
+    @GetMapping("/getColor")
+    public String getColor() {
+        return "red";
+    }
 }
